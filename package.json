@@ -20,10 +20,13 @@
     "nodemon": "^1.19.4"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.9.0",
     "axios": "^0.20.0",
     "bcrypt-nodejs": "0.0.3",
     "bootstrap": "^4.5.2",
     "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
     "express": "^4.16.3",
     "express-session": "^1.17.1",
     "if-env": "^1.0.4",
@@ -31,6 +34,9 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "react-bootstrap": "^1.3.0",
-    "req-flash": "0.0.3"
+    "react-toastify": "^6.0.8",
+    "req-flash": "0.0.3",
+    "stripe": "^8.102.0",
+    "uuidv4": "^6.2.3"
   }
 }

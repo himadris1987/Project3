@@ -10,6 +10,7 @@ import Boss from "./Pages/Boss";
 import Login from "./Pages/Login";
 import Defeat from "./Pages/Defeat";
 import Victory from "./Pages/Victory";
+import Stripe from "./Pages/Stripe";
 import DeveloperContext from './Utils/DeveloperContext';
 import API from "./Utils/API";
 
@@ -100,6 +101,8 @@ function App() {
           <Route exact path="/Boss" component={Boss} />
           <Route exact path="/Defeat" component={Defeat} />
           <Route exact path="/Victory" component={Victory} />
+          <Route exact path="/Stripe" component={Stripe} />
+
         </Switch>
       </Router>
     </DeveloperContext.Provider>

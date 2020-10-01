@@ -3,7 +3,7 @@ import "./style.css";
 
 
 function Navbar(props) {
-    const links = ["Login", "Main"];
+    const links = ["Login", "Main", "Stripe"];
     const navLinks = links.map(link => {
         return (
             <li><a href={"/" + link}>{link}</a><hr/></li>
