@@ -68,7 +68,7 @@ function Logins() {
   return (
     <div className="container-fluid">
       <Jumbotron>
-        <h1>Welcome to Final Phantasy</h1>
+        <h1>Welcome to InnVenture</h1>
         <p>
           Please login below to continue your journey, if you are not a member please
           signup to get started.
